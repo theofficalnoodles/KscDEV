@@ -126,3 +126,9 @@ local PlayerESP = ESPTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/LolSeek/script_ingame/refs/heads/main/PlayerESP"))()
    end,
 })
+
+local StarJug = StarJugTab:CreateButton({
+   Name = "Starjug",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LolSeek/LightsBarrel/refs/heads/main/MoonBarrelMain"))()
+   end,
