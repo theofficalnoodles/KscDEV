@@ -132,3 +132,4 @@ local StarJug = StarJugTab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/LolSeek/LightsBarrel/refs/heads/main/MoonBarrelMain"))()
    end,
+})
